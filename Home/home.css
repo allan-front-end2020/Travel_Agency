@@ -10,7 +10,6 @@ body {
 }
 
 a {
-
     text-decoration: none !important;
     color: currentColor;
 }
@@ -25,7 +24,9 @@ header {
     height: 100px;
     background-color: rgb(23, 75, 75);
     box-shadow: 0px 3px 8px grey;
-   
+    padding: 2px 20px 2px 50px;
+    
+
 }
 
 header .container-fluid {
@@ -50,7 +51,7 @@ header .navb-items {
 
 header .items {
     text-align: center;
-    margin-inline: 5%;
+    margin-inline: 3%;
     font-size: 10px;
     letter-spacing: 3px;
     color: #102447;
@@ -73,14 +74,15 @@ header .items-button a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size:16px ;
+    font-size: 16px;
     font-weight: 600;
     color: antiquewhite;
     transition: all .5s ease;
 
 }
+
 header .items-button a:hover {
     background-color: #a11a1a;
-    
+
 
 }

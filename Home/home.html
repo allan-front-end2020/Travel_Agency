@@ -10,10 +10,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Travel Agency Recode</title>
 </head>
 
-<body>
+<body>git
     <header id="header" class="fixed-top">
         <div class="contaimer fluid">
             <div class="navb-logo">
@@ -35,10 +38,35 @@
                 <div class="items-button">
                     <a href="items" type="button">Contatos</a>
                 </div>
+
+                <!-- Button trigger modal -->
+                <div class="mobile-toggler d-lg-none">
+                    <a href=""  data-bs-toggle="modal"  data-bs-target="#openModal">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="openModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Vai se fuder
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="mobile-toggler">
-                <a href="" data-bss-toggle="modal" data-bs-target=></a>
-            </div>
+
         </div>
     </header>
 
