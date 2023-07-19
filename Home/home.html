@@ -18,54 +18,68 @@
 
 <body>git
     <header id="header" class="fixed-top">
-        <div class="contaimer fluid">
+        <div class="container-fluid">
             <div class="navb-logo">
-                xxxxxxxxxxxx
+                Logo
             </div>
-            <div class="navb-items">
-                <div class="items">
+            <div class="navb-item d-xl-flex  d-none">
+                <div class="item">
                     <a href="/">Home</a>
                 </div>
-                <div class="items">
+                <div class="item">
                     <a href="ofertas">Ofertas</a>
                 </div>
-                <div class="items">
+                <div class="item">
                     <a href="sobre">Sobre</a>
                 </div>
-                <div class="items">
+                <div class="item">
                     <a href="items">Contatos</a>
                 </div>
-                <div class="items-button">
-                    <a href="items" type="button">Contatos</a>
+                <div class="item-button">
+                    <a href="item" type="button">Contatos</a>
                 </div>
-
-                <!-- Button trigger modal -->
-                <div class="mobile-toggler d-lg-none">
-                    <a href=""  data-bs-toggle="modal"  data-bs-target="#openModal">
-                        <i class="fa-solid fa-bars"></i>
-                    </a>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="openModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+            </div>
+            <!-- Button trigger modal -->
+            <div class="mobile-toggler d-lg-none">
+                <a href="" data-bs-toggle="modal" data-bs-target="#openModal">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="openModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1>Logo</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-line">
+                                <i class="fa-solid fa-house"></i> <a href="/Home/">home</a>
                             </div>
-                            <div class="modal-body">
-                            Vai se fuder
+                            <div class="modal-line">
+                                <i class="fa-solid fa-location-dot"></i> <a href="/Home/">Contatos </a>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                            <div class="modal-line">
+                                <i class="fa-solid fa-earth-asia"></i> <a href="/Home/">Ofertas</a>
                             </div>
+                            <div class="modal-line">
+                                <i class="fa-solid fa-business-time"></i> <a href="/Home/">outros</a>
+                            </div>
+                        </div>
+                        <div class="mobile-modal-footer">
+                            <a href="_blank" target="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="_blank" target="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="_blank" target="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="_blank" target="#"><i class="fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
         </div>
     </header>
