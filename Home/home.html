@@ -1,87 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Travel Agency Recode</title>
-</head>
+  </head>
 
-<body>git
-    <header id="header" class="fixed-top">
+  <body>
+    <div class="row">
+      <header id="header" class="fixed-top">
         <div class="container-fluid">
-            <div class="navb-logo">
-                Logo
+          <div class="navb-logo">
+            <img src="../img/zazazaza.png" alt="" />
+          </div>
+          <div class="navb-item d-xl-flex d-none">
+            <div class="item">
+              <a href="/">Home</a>
             </div>
-            <div class="navb-item d-xl-flex  d-none">
-                <div class="item">
-                    <a href="/">Home</a>
-                </div>
-                <div class="item">
-                    <a href="ofertas">Ofertas</a>
-                </div>
-                <div class="item">
-                    <a href="sobre">Sobre</a>
-                </div>
-                <div class="item">
-                    <a href="items">Contatos</a>
-                </div>
-                <div class="item-button">
-                    <a href="item" type="button">Contatos</a>
-                </div>
+            <div class="item">
+              <a href="ofertas">Destinos</a>
             </div>
-            <!-- Button trigger modal -->
-            <div class="mobile-toggler d-lg-none">
-                <a href="" data-bs-toggle="modal" data-bs-target="#openModal">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
+            <div class="item">
+              <a href="items">Promoções</a>
             </div>
-            <!-- Modal -->
-            <div class="modal fade" id="openModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1>Logo</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                <i class="fa-solid fa-xmark"></i>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="modal-line">
-                                <i class="fa-solid fa-house"></i> <a href="/Home/">home</a>
-                            </div>
-                            <div class="modal-line">
-                                <i class="fa-solid fa-location-dot"></i> <a href="/Home/">Contatos </a>
-                            </div>
-                            <div class="modal-line">
-                                <i class="fa-solid fa-earth-asia"></i> <a href="/Home/">Ofertas</a>
-                            </div>
-                            <div class="modal-line">
-                                <i class="fa-solid fa-business-time"></i> <a href="/Home/">outros</a>
-                            </div>
-                        </div>
-                        <div class="mobile-modal-footer">
-                            <a href="_blank" target="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="_blank" target="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="_blank" target="#"><i class="fa-brands fa-whatsapp"></i></a>
-                            <a href="_blank" target="#"><i class="fa-brands fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="item">
+              <a href="items">Contatos</a>
             </div>
+          </div>
+          <!-- Button trigger modal -->
+          <div class="mobile-toggler d-lg-none">
+            <a href="" data-bs-toggle="modal" data-bs-target="#openModal">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
         </div>
+      </header>
+    </div>
 
+    <!-- Modal -->
+    <div>
+      <div class="modal fade" id="openModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1>Logo</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-line">
+                <i class="fa-solid fa-house"></i> <a href="/Home/">Home</a>
+              </div>
+              <div class="modal-line">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="/Home/">Destinos</a>
+              </div>
+              <div class="modal-line">
+                <i class="fa-solid fa-earth-asia"></i>
+                <a href="/Home/">Promoções</a>
+              </div>
+              <div class="modal-line">
+                <i class="fa-solid fa-earth-asia"></i>
+                <a href="/Home/">Contatos</a>
+              </div>
+            </div>
+            <div class="mobile-modal-footer">
+              <a href="_blank" target="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="_blank" target="#"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="_blank" target="#"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a href="_blank" target="#"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
         </div>
-    </header>
+      </div>
+    </div>
+    <!--Fim modal Lateral-->
 
+    <!--Começo da tela-->
+    <div class="row" >
+        <div class="col">
+            coluna 1
+        </div>
+      
+    </div>
+<footer class="row" class="footer">
+rodape
+</footer>
+  </body>
 </html>
