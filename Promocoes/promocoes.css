@@ -73,12 +73,7 @@ a {
 
 header .mobile-toggler {
   font-size: 30px;
-  color: white !important;
-  font-size: 30px;
-}
-header .mobile-toggler i {
-  color: white !important;
-  font-size: 30px;
+  color: black !important;
 }
 
 /* modal */
@@ -88,16 +83,15 @@ header .mobile-toggler i {
   width: 430px !important;
 }
 
-@media (max-width: 457px) {
+@media (max-width: 450px) {
   .modal-dialog {
-    width: 100% !important;
+    width: 1000px !important;
   }
 }
 
 .modal-content {
   border-radius: 0;
   height: 100vh;
-
   overflow-y: scroll !important;
   background-color: #102447 !important;
 }
@@ -196,49 +190,3 @@ footer {
   font-size: 24px;
 }
 
-.section-home div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border: solid black 1px;
-  height: 50vh;
-}
-
-/* Página de contatos */
-.sessao-de-contatos {
-  width: 40%;
-  padding: 45px;
-  border-radius: 12px;
-  /* position: absolute; */
-  /* left: 50%;
-top: 50%; */
-  /* transform: translate(-50%, -50%); */
-}
-.linha {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 20px;
-  border: 0.2px solid gray;
-
-}
-.formulario-contatos {
-  background-color: #a4b5c5;
-  border-radius: 12px 0px 0px 12px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 20px;
-}
-.coluna {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  flex-direction: column;
-  gap: 20px;
-}
-.coluna h4{
-  margin-top: 20px;
-}
-.coluna iframe{
-  width: 80%;
-  border-radius: 12px;
-  border: 0.5px solid gray;
-}

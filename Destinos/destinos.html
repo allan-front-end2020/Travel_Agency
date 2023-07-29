@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="../Home/home.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,35 +26,35 @@
   </head>
 
   <body>
-    <!-- Menu -->
-    <header id="header" class="fixed-top">
-      <div class="container-fluid">
-        <div class="navb-logo">
-          <img src="../img/logo3.png" alt="" />
+    <div class="row">
+      <header id="header" class="fixed-top">
+        <div class="container-fluid">
+          <div class="navb-logo">
+            <img src="../img/logo3.png" alt="" />
+          </div>
+          <div class="navb-item d-xl-flex d-none">
+            <div class="item">
+              <a href="../Home/index.html">Home</a>
+            </div>
+            <div class="item">
+              <a href="destinos.html">Destinos</a>
+            </div>
+            <div class="item">
+              <a href="../Destinos/destinos.html">Promoções</a>
+            </div>
+            <div class="item">
+              <a href="../Contatos/promocoes.html">Contatos</a>
+            </div>
+          </div>
+          <!-- Button trigger modal -->
+          <div class="mobile-toggler d-lg-none">
+            <a href="" data-bs-toggle="modal" data-bs-target="#openModal">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
         </div>
-        <div class="navb-item d-xl-flex d-none">
-          <div class="item">
-            <a href="#">Home</a>
-          </div>
-          <div class="item">
-            <a href="../Destinos/destinos.html">Destinos</a>
-          </div>
-          <div class="item">
-            <a href="../Promocoes/promocoes.html">Promoções</a>
-          </div>
-          <div class="item">
-            <a href="../Contatos/contatos.html">Contatos</a>
-          </div>
-        </div>
-        <!-- Button trigger modal -->
-        <div class="mobile-toggler d-lg-none">
-          <a href="" data-bs-toggle="modal" data-bs-target="#openModal">
-            <i class="fa-solid fa-bars"></i>
-          </a>
-        </div>
-      </div>
-    </header>
-    <!--Fim  Menu -->
+      </header>
+    </div>
 
     <!-- Modal -->
     <div>
@@ -74,20 +74,19 @@
             </div>
             <div class="modal-body">
               <div class="modal-line">
-                <i class="fa-solid fa-house"></i>
-                <a href="index.html">Home</a>
+                <i class="fa-solid fa-house"></i> <a href="/Home/">Home</a>
               </div>
               <div class="modal-line">
                 <i class="fa-solid fa-location-dot"></i>
-                <a href="../Destinos/destinos.html">Destinos</a>
+                <a href="/Home/">Destinos</a>
               </div>
               <div class="modal-line">
                 <i class="fa-solid fa-earth-asia"></i>
-                <a href="../Promocoes/promocoes.html">Promoções</a>
+                <a href="/Home/">Promoções</a>
               </div>
               <div class="modal-line">
                 <i class="fa-solid fa-earth-asia"></i>
-                <a href="../Contatos/promocoes.html">Contatos</a>
+                <a href="/Home/">Contatos</a>
               </div>
             </div>
             <div class="mobile-modal-footer">
@@ -108,9 +107,9 @@
         </div>
       </div>
     </div>
-    <!--Fim Modal -->
+    <!--Fim modal Lateral-->
 
-    <!--Carrosel-->
+    <!--Começo da tela-->
     <div class="row">
       <div class="col carrosel">
         <div id="carouselExampleIndicators" class="carousel slide">
@@ -188,104 +187,30 @@
         </div>
       </div>
     </div>
-    <!--Fim carrosel-->
-    <!--Sessão home-->
-   
-    <section class="row section-home">
-      <div class="col-md-6">
-        <h5>Vem viajar com a gente</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus</p>
-        <button type="button" class="btn btn-primary">Primary</button>
-      </div>
-      <div class="col-md-6">foto</div>
-    </section>
-    <section class="row section-home">
-      <div class="col-md-6">
-      foto
-      </div>
-      <div class="col-md-6">
-        <h5>Vem viajar com a gente</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus</p>
-        <button type="button" class="btn btn-primary">Primary</button>
-      </div>
-    </section>
-  <!-- </div>
-    <section class="section-home row">
-      <div class="col">
-        foto
-      </div>
-      <div class="col">
-        <h5>Vem viajar com a gente</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus</p>
-        <button type="button" class="btn btn-primary">Primary</button>
-      </div>
+
+    <div class="container-fluid">
+      <form>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Label exemplo</label>
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Input exemplo"
+          />
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Outra label</label>
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Outro input"
+          />
+        </div>
+      </form>
     </div>
-    </section> -->
 
-    <!--Sessão home fim-->
-    <!--Sessão-->
-    <div class="painel row">
-      <h1 style="text-align: center">Veja algumas de nossas promoções</h1>
-      <div
-        class="card col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"
-        style="padding: 0"
-      >
-        <img
-          src="../img/pexels-maxi-franzoi-9977483.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-
-      <div
-        class="card col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"
-        style="padding: 0"
-      >
-        <img
-          src="../img/pexels-luan-gonçalves-13911606.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div
-        class="card col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"
-        style="padding: 0"
-      >
-        <img
-          src="../img/pexels-luan-gonçalves-13911606.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <!--Fim sessão-->
-
-    <!--Roda-pé-->
     <footer class="text-white pt-5 pb-4">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
@@ -358,24 +283,16 @@
             <div class="text-center text-md-right">
               <ul class="list unstyled list-inline">
                 <li class="list-inline-item">
-                  <a href="" class="btn-floating btn-sm text-white"
-                    ><i class="fa-brands fa-instagram color-white"></i
-                  ></a>
+                  <a href="" class="btn-floating btn-sm text-white"><i class="fa-brands fa-instagram color-white"></i></a>
+                </li>
+                <li  class="list-inline-item">
+                  <a href="" class="btn-floating btn-sm text-white"><i class="fa-brands fa-facebook"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="" class="btn-floating btn-sm text-white"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
+                  <a href="" class="btn-floating btn-sm text-white"><i class="fa-brands fa-whatsapp"></i></a>
                 </li>
-                <li class="list-inline-item">
-                  <a href="" class="btn-floating btn-sm text-white"
-                    ><i class="fa-brands fa-whatsapp"></i
-                  ></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="" class="btn-floating btn-sm text-white"
-                    ><i class="fa-brands fa-linkedin"></i
-                  ></a>
+                <li  class="list-inline-item">
+                  <a href=""class="btn-floating btn-sm text-white"><i class="fa-brands fa-linkedin"></i></a>
                 </li>
               </ul>
             </div>
@@ -383,6 +300,5 @@
         </div>
       </div>
     </footer>
-    <!--Fim roda-pé-->
   </body>
 </html>
