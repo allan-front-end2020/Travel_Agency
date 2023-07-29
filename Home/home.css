@@ -76,6 +76,11 @@ header .mobile-toggler {
   color: black !important;
 }
 
+header .mobile-toggler i {
+  font-size: 33px;
+  color: white;
+}
+
 /* modal */
 
 .modal-dialog {
@@ -85,7 +90,7 @@ header .mobile-toggler {
 
 @media (max-width: 450px) {
   .modal-dialog {
-    width: 1000px !important;
+    width: 90% !important;
   }
 }
 
@@ -166,22 +171,78 @@ header .mobile-toggler {
   margin: 0 auto;
 }
 
-.row {
-  margin-top: 49.4px !important;
-}
-.col {
-  height: 36%;
-}
-.col img {
-  height: 68vh;
-}
 
-.painel {
-  margin: 30px;
-}
-.card {
-  padding: 3px;
-}
 footer {
   background-color: #102447;
+}
+
+
+/* area de home */
+.area-home{
+
+  height: 50vh;
+  
+}
+.area-home div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px black;
+  
+}
+
+
+
+
+
+
+
+/* area de contatos */
+.sessao-de-contatos {
+  margin-top: 46px;
+  margin-bottom: 46px;
+}
+.linha {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 8px 0px;
+  border-radius: 12px;
+  border: 0.1px solid grey;
+}
+.formulario-contatos {
+  padding: 20px;
+  background-color: #49496d;
+  border-radius: 12px 0 0 12px;
+}
+
+.formulario-mapa {
+  padding: 21px 22px !important;
+}
+.formulario-mapa iframe {
+  border-radius: 12px;
+  border: 0.5px solid grey;
+}
+.d-flex p{
+  font-size: 15px;
+  padding-left: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+}
+@media (max-width: 472px) {
+  .d-flex p{
+    font-size: 12px ;
+    padding-left: 7px;
+    letter-spacing: 1px;
+  }
+}
+.d-flex i{
+  font-size: 25px;
+  padding-left: 18px;
+
+}
+@media (max-width: 472px) {
+  .d-flex i{
+    font-size: 12px ;
+    padding-left: 7px;
+  
+  }
 }
