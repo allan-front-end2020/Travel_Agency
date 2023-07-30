@@ -82,7 +82,6 @@ header .mobile-toggler i {
 }
 
 /* modal */
-
 .modal-dialog {
   margin: 0 !important;
   width: 430px !important;
@@ -166,38 +165,153 @@ header .mobile-toggler i {
   margin-right: 15px;
   padding: 0 0 3px 3px;
 }
-
-.mobile-modal-footer {
-  margin: 0 auto;
+/* carousel */
+.carousel-item {
+  height: 70vh;
+  min-width: 200px;
 }
-
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1;
+}
+.carousel-caption a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #102447;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
 
 footer {
   background-color: #102447;
 }
 
-
 /* area de home */
-.area-home{
-
+.area-home {
   height: 50vh;
-  
 }
-.area-home div{
+.area-home div {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
-  border: solid 1px black;
-  
+}
+.area-home span {
+  border-bottom: solid 3px #e7b315;
+
+  width: 37%;
+  margin: 23px;
+}
+.area-home span {
+  border-bottom: solid 3px #e7b315;
+
+  width: 37%;
+  margin: 23px;
+}
+.title-home {
+  text-align: center;
+  margin: 23px;
+}
+.alguns-destinos img {
+  width: 95%;
+  height: 75%;
+  border-radius: 5px;
+}
+.alguns-destinos h2 ,p{
+  text-align: center;
+  margin: 23px;
 }
 
+.valor-viagem {
+  background-color: #102447;
+  padding: 66px 0;
+}
+.valor-viagem-linha {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+}
+.valor-viagem-linha h2 {
+  border-right: 3px solid;
+}
+.col-md-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.col-lg-9 {
+  margin-top: 29px;
+}
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  background-color: #fff;
+}
+.input-group-addon {
+  width: 39px;
+}
+.input-group-addon i {
+  margin: 12px;
+}
+.mg-book-now .mg-bn-form .input-group-addon {
+  border-radius: 1px 0px 0px 1px;
+}
 
-
-
-
-
-
+.cs-skin-elastic {
+  background: transparent;
+  font-size: 14px;
+  color: white;
+}
+.cs-skin-elastic > span {
+  background-color: transparent;
+  z-index: 100;
+  border: 1px solid #fff;
+}
+.cs-select .cd-active .cs-options {
+  visibility: visible;
+}
+.cs-select {
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px 7px;
+}
+.botao-valor {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #e7b315;
+  border-color: #151514;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.mg-bn-forms {
+  margin-top: 20px;
+}
 /* area de contatos */
 .sessao-de-contatos {
   margin-top: 46px;
@@ -221,28 +335,26 @@ footer {
   border-radius: 12px;
   border: 0.5px solid grey;
 }
-.d-flex p{
+.d-flex p {
   font-size: 15px;
   padding-left: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 2px;
 }
 @media (max-width: 472px) {
-  .d-flex p{
-    font-size: 12px ;
+  .d-flex p {
+    font-size: 12px;
     padding-left: 7px;
     letter-spacing: 1px;
   }
 }
-.d-flex i{
+.d-flex i {
   font-size: 25px;
   padding-left: 18px;
-
 }
 @media (max-width: 472px) {
-  .d-flex i{
-    font-size: 12px ;
+  .d-flex i {
+    font-size: 12px;
     padding-left: 7px;
-  
   }
 }
