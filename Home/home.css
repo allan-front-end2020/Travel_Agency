@@ -241,7 +241,8 @@ footer {
   height: 75%;
   border-radius: 5px;
 }
-.alguns-destinos h2 ,p{
+.alguns-destinos h2,
+p {
   text-align: center;
   margin: 23px;
 }
@@ -357,4 +358,59 @@ footer {
     font-size: 12px;
     padding-left: 7px;
   }
+}
+
+/* Destinos */
+
+.py-5 conainer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.py-5 row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.position-relative {
+  position: relative !important;
+}
+
+.card {
+  transition: all 0.3s;
+}
+.card img {
+  transition: all 0.3s;
+}
+.badge-rounded-circle {
+  padding: 0;
+  width: 76px;
+  height: 76px;
+  border-radius: 50% !important;
+  box-shadow: none;
+  text-align: center;
+  background-color: orange;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.badge-rounded-circle span {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.badge-rounded-circle small {
+  margin-left: -8px;
+  font-weight: 700;
+}
+.card-body{
+  padding: 1.5rem;
+}
+.card-body p{
+  margin-left: 0;
+  margin-bottom: 23px;
+  margin: 30px 0px 30px 0px;
 }
