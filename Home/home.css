@@ -19,8 +19,6 @@ a:hover {
   color: currentColor;
 }
 
-
-
 header {
   position: fixed;
   width: 100vw;
@@ -167,7 +165,27 @@ header .mobile-toggler i {
   margin-right: 15px;
   padding: 0 0 3px 3px;
 }
+.mobile-modal-footer {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+  margin: 133px;
+  
+}
+.mobile-modal-footer a{
+  font-size: 33px;
+  color: white;
+ 
+  
+}
+.mobile-modal-footer a :hover{
+ color: #e7b315;
+ transition: 0.7s;
+}
 /* carousel */
+.carousel {
+  padding: 0;
+}
 .carousel-item {
   height: 70vh;
   min-width: 200px;
@@ -181,7 +199,7 @@ header .mobile-toggler i {
   font-size: 45px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom:35px;
+  margin-bottom: 35px;
 }
 .carousel-caption p {
   width: 60%;
@@ -199,7 +217,8 @@ header .mobile-toggler i {
   border: 1px solid black;
   border-radius: 5px;
 }
-.carousel-caption img{
+.carousel-item img {
+  height: 100vh !important;
   height: 100vh;
 }
 .carousel-inner::before {
@@ -219,38 +238,37 @@ footer {
 
 /* area de home */
 .area-home {
-  height: 50vh;
+  height: 50% !important;
+
+  padding: 27px;
 }
 .area-home div {
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: column;
+  padding: 0px 0px 51px 0px;
+}
+.area-home p {
+  padding: 33px 103px 70px 0px;
 }
 .area-home span {
   border-bottom: solid 3px #e7b315;
 
   width: 37%;
-  margin: 23px;
-}
-.area-home span {
-  border-bottom: solid 3px #e7b315;
-
-  width: 37%;
-  margin: 23px;
+  margin: 33px 0;
 }
 
 .title-home {
   text-align: center;
-
+  margin: 44px auto;
 }
 .alguns-destinos img {
   width: 95%;
   height: 75%;
   border-radius: 5px;
 }
-.alguns-destinos 
-p {
+.alguns-destinos p {
   text-align: center;
   margin: 23px;
 }
@@ -266,6 +284,13 @@ p {
 }
 .valor-viagem-linha h2 {
   border-right: 3px solid;
+}
+@media (max-width: 992px) {
+  .valor-viagem-linha h2 {
+    border-bottom: 3px solid;
+    border-right: 3px none;
+    margin: 30px 0;
+  }
 }
 .col-md-6 {
   padding-left: 10px;
@@ -318,6 +343,11 @@ p {
   border-radius: 3px;
   font-size: 16px;
 }
+@media (max-width: 772px) {
+  .botao-valor {
+    height: 168%;
+  }
+}
 .mg-bn-forms {
   margin-top: 20px;
 }
@@ -369,6 +399,10 @@ p {
 }
 
 /* Destinos */
+.py-5 h2 {
+  text-align: center;
+  margin: 44px 0;
+}
 
 .py-5 conainer {
   width: 100%;
@@ -414,11 +448,24 @@ p {
   margin-left: -8px;
   font-weight: 700;
 }
-.card-body{
+.card-body {
   padding: 1.5rem;
 }
-.card-body p{
+.card-body p {
   margin-left: 0;
   margin-bottom: 23px;
   margin: 30px 0px 30px 0px;
+}
+
+/* Página promoções */
+
+.painel h1 {
+  text-align: center;
+  margin: 44px 0;
+}
+
+/* Página contatos */
+.sessao-de-contatos h1 {
+  text-align: center;
+  margin: 44px 0;
 }
