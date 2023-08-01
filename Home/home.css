@@ -30,7 +30,7 @@ header {
 
 header .container-fluid {
   width: 100%;
-  padding: 16px 64px;
+  padding: 16px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
