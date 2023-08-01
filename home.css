@@ -175,8 +175,9 @@ header .mobile-toggler i {
 .mobile-modal-footer a{
   font-size: 33px;
   color: white;
- 
-  
+}
+.mobile-toggler {
+ margin-top: 11px;
 }
 .mobile-modal-footer a :hover{
  color: #e7b315;
