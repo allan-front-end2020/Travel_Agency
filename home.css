@@ -29,7 +29,7 @@ header {
   height: 100px;
   background: transparent !important;
  
-  padding: 2px 20px 2px 5px;
+  padding: 2px 20px 2px 50px;
   transition: 0.5s all ease;
 }
 
@@ -144,10 +144,11 @@ header.rolagem{
   margin: 0 auto;
   padding: 75px 0 0 0;
   flex: unset;
-  margin-top: 12%;
+  margin-top: 22%;
+
 }
 
-.mogitdal-line {
+.modal-line {
   width: 100%;
   display: flex;
   align-items: center;
@@ -180,11 +181,11 @@ header.rolagem{
   padding: 0 0 3px 3px;
 }
 .mobile-modal-footer {
-  display: flex;
-  justify-content: center;
-  gap: 64px;
-  margin: 7px;
-  overflow: none !important;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin: 7px;
+    overflow: hidden !important;
 }
 .mobile-modal-footer a {
   font-size: 33px;
