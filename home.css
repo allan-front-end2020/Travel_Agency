@@ -7,6 +7,8 @@
 
 body {
   font-family: "Courier New", Courier, monospace;
+  padding-right: 0px !important;
+  
 }
 
 a {
@@ -14,6 +16,7 @@ a {
   color: #fff !important;
   transition: all 0.3s ease !important;
 }
+
 
 a:hover {
   text-decoration: none;
@@ -144,7 +147,7 @@ header.rolagem{
   margin-top: 12%;
 }
 
-.modal-line {
+.mogitdal-line {
   width: 100%;
   display: flex;
   align-items: center;
@@ -179,8 +182,9 @@ header.rolagem{
 .mobile-modal-footer {
   display: flex;
   justify-content: center;
-  gap: 44px;
-  margin: 133px;
+  gap: 64px;
+  margin: 7px;
+  overflow: none !important;
 }
 .mobile-modal-footer a {
   font-size: 33px;
