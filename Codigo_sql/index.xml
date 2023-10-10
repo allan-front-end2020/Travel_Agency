@@ -1,0 +1,35 @@
+CREATE DATABASE agencia_recode;
+
+USE agencia_recode;
+
+CREATE TABLE Cliente (
+    Idcliente INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    data_de_nascimento DATE,
+    telefone VARCHAR(20)
+);
+
+
+CREATE TABLE Destino (
+    id_destino INT PRIMARY KEY AUTO_INCREMENT,
+    nome_destino VARCHAR(255) NOT NULL,
+    Preco_dia DECIMAL(10, 2)
+);
+
+
+CREATE TABLE Reserva (
+    Id_reserva INT PRIMARY KEY AUTO_INCREMENT,
+    id_cliente INT,
+    id_destino INT,
+    FOREIGN KEY (id_cliente) REFERENCES Cliente(Idcliente),
+    FOREIGN KEY (id_destino) REFERENCES Destino(id_destino)
+);
+
+
+CREATE TABLE Comprar (
+    id_comprar INT PRIMARY KEY AUTO_INCREMENT,
+    Id_reserva INT,
+    valor_total DECIMAL(10, 2),
+    status_compra VARCHAR(50),
+    FOREIGN KEY (Id_reserva) REFERENCES Reserva(Id_reserva)
+);
