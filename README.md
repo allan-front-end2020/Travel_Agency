@@ -1,5 +1,7 @@
 # Modelo Conceitual
 ![recode 2 entrega](https://github.com/allan-front-end2020/Travel_Agency/assets/79630156/b90ddb49-f279-4dd6-9c6b-a9fc566a4e06)
+# Modelo Lógico
+![Screenshot_17](https://github.com/allan-front-end2020/Travel_Agency/assets/79630156/8076ce6a-521f-4a61-8f13-6543e39dc6ae)
 
 ## Descrição das Entidades
 
